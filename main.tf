@@ -9,19 +9,19 @@ resource "azurerm_virtual_network" "vnet" {
   subnet {
     name           = var.subnet_name[0]
     address_prefix = var.subnet_address_prefix[0]
-    //security_group = var.security_group
+    security_group = var.security_group
   }
 
   subnet {
     name           = var.subnet_name[1]
     address_prefix = var.subnet_address_prefix[1]
-    //security_group = var.security_group
+    security_group = var.security_group
   }
 
   subnet {
     name           = var.subnet_name[2]
     address_prefix = var.subnet_address_prefix[2]
-    //security_group = var.security_group
+    security_group = var.security_group
   }
 
   tags = var.tags
