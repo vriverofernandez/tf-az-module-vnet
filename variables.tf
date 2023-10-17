@@ -33,6 +33,5 @@ variable "subnet_address_prefix" {
 }
 
 variable "security_group" {
-  
 }
 
