@@ -22,16 +22,9 @@ variable "tags" {
 
 }
 
-variable "subnet_name" {
-    type = list(string)
-    description = "nombre subnet"
-}
-
-variable "subnet_address_prefix" {
-    type = list(string)
-    description = "direccionamiento subnet"
-}
-
 variable "security_group" {
 }
 
+variable "subnets" {
+  
+}
